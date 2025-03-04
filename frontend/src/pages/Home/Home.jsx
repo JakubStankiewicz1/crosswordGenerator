@@ -1,16 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 import "./home.css";
-import Letter from '../../components/Letter/Letter';
+import Letter from "../../components/Letter/Letter";
+import Definition from "../../components/Definition/Definition";
 
-const Home = () => {
-  return (
-    <div className="home">
-      <Letter letter={"L"} number={"1"} />
-      <Letter letter={"M"} number={"14"} />
-      <Letter letter={"d"} number={"18"} />
-      <Letter letter={"y"} number={"25"} />
-    </div>
-  )
+import hasla from '../../pass.json';
+
+const getRandomPassword = () => {
+  const randomIndex = Math.floor(Math.random() * hasla.hasla.length);
+  return hasla.hasla[randomIndex];
 }
 
-export default Home
+const Home = () => {
+  const [password, setPassword] = useState(getRandomPassword());
+
+  
+
+
+  return (
+    <div className="home">
+      <div className="homeContainer">
+        <Definition definitionText={password.definicja} arrow="Down" arrowPlacement="Bottom" arrowLength="Short" />
+        {password.odpowiedz.split("").map((char, index) => (
+          <Letter key={index} letter={char} number={index + 1} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Home;

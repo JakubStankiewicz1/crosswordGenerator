@@ -1,0 +1,99 @@
+.definition {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #000;
+    background-color: lightgray;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px; */
+    z-index: 100;
+}
+
+.definitionContainerTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.definitionContainerArrowContainerNone {
+    display: none;
+}
+
+.definitionContainerArrowContainerArrowUp {
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.definitionContainerArrowContainerArrowDown {
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
+
+.definitionContainerArrowContainerArrowLeft {
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+}
+
+.definitionContainerArrowContainerArrowRight {
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    clip-path: polygon(100% 50%, 0% 0%, 0% 100%);
+}
+
+.definitionContainerTextContainerText {
+    text-transform: lowercase;
+    font-size: 14px;
+}
+
+.definitionContainerArrowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.definitionContainerArrowContainerPlacementTop {
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.definitionContainerArrowContainerPlacementBottom {
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.definitionContainerArrowContainerPlacementLeft {
+    left: -16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.definitionContainerArrowContainerPlacementRight {
+    right: -16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.definitionContainerArrowContainerLongLine {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    position: absolute;
+    top: 100px;
+}
+

@@ -1,13 +1,24 @@
+.home {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightpink;
+  margin-top: 100px;
+}
+
 .homeContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .crosswordRow {
-    display: flex;
-  }
-  
-  .definitionsContainer {
-    margin-top: 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.crosswordRow {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.definitionsContainer {
+  margin-top: 20px;
+}

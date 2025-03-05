@@ -6,11 +6,27 @@ const Letter = ({ letter, number }) => {
     <div className="letter">
       <div className="letterContainer">
         <div className="letterContainerTextContainer">
-          <p className={`${letter === "" ? "letterContainerTextContainerNone" : "letterContainerTextContainerText"}`}>{letter}</p>
+          <p
+            className={`${
+              letter === ""
+                ? "letterContainerTextContainerNone"
+                : "letterContainerTextContainerText"
+            }`}
+          >
+            {letter}
+          </p>
         </div>
 
         <div className="letterContainerNumberContainer">
-          <p className={`${number === "" ? "letterContainerNumberContainerNone" : "letterContainerNumberContainerNumber"}`}>{number}</p>
+          <p
+            className={`${
+              number === ""
+                ? "letterContainerNumberContainerNone"
+                : "letterContainerNumberContainerNumber"
+            }`}
+          >
+            {number}
+          </p>
         </div>
       </div>
     </div>

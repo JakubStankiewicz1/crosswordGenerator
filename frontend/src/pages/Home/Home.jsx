@@ -29,7 +29,7 @@ const Home = () => {
 
       <div className="crosswordRow">
         <Definition
-          definitionText={password.definicja}
+          definitionText={"x"}
           arrow="Down"
           arrowPlacement="Bottom"
           arrowLength="Short"

@@ -1,53 +1,17 @@
 {
-  "hasla_jedna_litera": [
-    { "definicja": "Liczba rzymska oznaczająca 10", "odpowiedz": "X" },
-    { "definicja": "Pierwsza litera alfabetu", "odpowiedz": "A" },
-    {
-      "definicja": "Oznaczenie potasu w układzie pierwiastków",
-      "odpowiedz": "K"
-    },
-    { "definicja": "Symbol wodoru", "odpowiedz": "H" },
-    { "definicja": "Samogłoska występująca w słowie 'oko'", "odpowiedz": "O" }
-  ],
-  "hasla_dwa": [
-    { "definicja": "Skrót od doktora", "odpowiedz": "Dr" },
-    { "definicja": "Kod państwa Niemiec", "odpowiedz": "DE" },
-    { "definicja": "Znak chemiczny złota", "odpowiedz": "Au" },
-    { "definicja": "Oznaczenie sodu w chemii", "odpowiedz": "Na" },
-    { "definicja": "Pierwsza sylaba w 'mama'", "odpowiedz": "Ma" }
-  ],
-  "hasla_trzy": [
-    { "definicja": "Stolica Japonii", "odpowiedz": "Tok" },
-    { "definicja": "Mały ptak śpiewający", "odpowiedz": "Gil" },
-    { "definicja": "Skrót od numeru", "odpowiedz": "Nrr" },
-    { "definicja": "Zielona herbata japońska", "odpowiedz": "Mat" },
-    { "definicja": "Symbol pierwiastka azotu", "odpowiedz": "Nrr" }
-  ],
-  "hasla_cztery": [
-    { "definicja": "Najmniejsza jednostka materii", "odpowiedz": "Atom" },
-    { "definicja": "Miasto zakochanych", "odpowiedz": "Pary" },
-    { "definicja": "Włoskie danie z makaronem", "odpowiedz": "Pary" },
-    { "definicja": "Pierwsza planeta Układu Słonecznego", "odpowiedz": "Merk" },
-    { "definicja": "Najszybsze zwierzę lądowe", "odpowiedz": "Para" }
-  ],
-  "hasla_piec": [
+  "hasla": [
+    { "definicja": "Stolica Francji", "odpowiedz": "Paryż" },
     {
       "definicja": "Największa planeta Układu Słonecznego",
-      "odpowiedz": "Jowis"
+      "odpowiedz": "Jowisz"
     },
-    { "definicja": "Metal szlachetny", "odpowiedz": "Jowis" },
-    { "definicja": "Główny składnik powietrza", "odpowiedz": "Azot" },
-    { "definicja": "Najwyższa góra świata", "odpowiedz": "Jowin" },
-    { "definicja": "Państwo w kształcie buta", "odpowiedz": "Jowia" }
-  ],
-  "hasla_szesc": [
-    { "definicja": "Autor 'Dziadów'", "odpowiedz": "Diamen" },
-    { "definicja": "Bardzo twardy minerał", "odpowiedz": "Diamen" },
-    { "definicja": "Czerwony owoc letni", "odpowiedz": "Diamen" },
-    {
-      "definicja": "Japońska sztuka składania papieru",
-      "odpowiedz": "Diamen"
-    },
-    { "definicja": "Popularny napój kofeinowy", "odpowiedz": "Diamen" }
+    { "definicja": "Pierwsza litera alfabetu", "odpowiedz": "A" },
+    { "definicja": "Najszybsze zwierzę lądowe", "odpowiedz": "Gepard" },
+    { "definicja": "Autor 'Dziadów'", "odpowiedz": "Mickiewicz" },
+    { "definicja": "Państwo w kształcie buta", "odpowiedz": "Włochy" },
+    { "definicja": "Metal szlachetny", "odpowiedz": "Złoto" },
+    { "definicja": "Zielona herbata japońska", "odpowiedz": "Matcha" },
+    { "definicja": "Pierwiastek oznaczany symbolem O", "odpowiedz": "Tlen" },
+    { "definicja": "Najwyższa góra świata", "odpowiedz": "Everest" }
   ]
 }

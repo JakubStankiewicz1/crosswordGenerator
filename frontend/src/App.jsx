@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div className="app">
+    <div className="app dfas">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
